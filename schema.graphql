@@ -1,0 +1,11 @@
+type User @entity {
+	id: ID!
+	totalTransfers: BigInt!
+	totalAmount: BigInt!
+}
+
+type Transfer @entity {
+	id: ID!
+	totalSupply: BigInt!
+	volume: BigInt!
+}
